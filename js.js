@@ -17,16 +17,16 @@ var Game = (function() {
   
   game.squares = [
     new Square("¿Quien es ese Pokemon?", 100, "square2"),
-    new Square("Pong", 150, "square3"),
-    new Square("Pong2", 200, "square4" ),
+    new Square("Suicidio", 150, "square3"),
+    new Square("Dato Epidemiológico", 200, "square4" ),
     new Square("Gato", 250, "square5"),
-    new Square("Piedra,Papel o Tijera", 300, "square6"),
-    new Square("Breakout", 350, "square7"),
-    new Square("¿Quien es ese Pokemon?", 400, "square8"),
-    new Square("Pong", 450, "square9"),
-    new Square("Breakout", 500, "square10"),
-    new Square("Gato", 550, "square11"),
-    new Square("Piedra,Papel o Tijera", 600, "square12" /* document.location.href="/Q4/s64/index.html"*/)
+    new Square("Alopecia", 300, "square6"),
+    new Square("Dato Fisiológico", 350, "square7"),
+    new Square("Pong", 400, "square8"),
+    new Square("Cáncer de Próstata", 450, "square9"),
+    new Square("Factores de Riesgo de Cáncer de Próstata", 500, "square10"),
+    new Square("Space Invaders", 550, "square11"),
+    new Square("Dato Curioso", 600, "square12" /* document.location.href="/Q4/s64/index.html"*/)
   ];
   
 
@@ -196,39 +196,39 @@ var Game = (function() {
         }
         if (currentSquareId == "square3") {
           //alert("hola2");
-          window.open("Juego/index.html", "JUEGO", "width=900, height=900");
+          window.open("Suicidio2/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square4") {
           //alert("hola3");
-          window.open("Juegos/index.html", "JUEGO", "width=900, height=900");
+          window.open("Suicidio/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square5") {
           //alert("hola4");
-          window.open("MONOPOLY/index.html", "JUEGO", "width=900, height=900");
+          window.open("Gato/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square6") {
           //alert("hola5");
-          window.open("PiPaOTi/index.html", "JUEGO", "width=900, height=900");
+          window.open("Alo/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square7") {
           //alert("hola");
-          window.open("Breakout/index.html", "JUEGO", "width=900, height=900");
+          window.open("Alo/index2.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square8") {
          // alert("hola");
-          window.open("QEEP/index.html#", "JUEGO", "width=900, height=900");
+          window.open("Pong/index.html#", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square9") {
          // alert("hola2");
-          window.open("Juego/index.html", "JUEGO", "width=900, height=900");
+          window.open("Pros/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square10") {
          // alert("hola3");
-          window.open("Breakout/index.html", "JUEGO", "width=900, height=900");
+          window.open("Pros/index2.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square11") {
         //  alert("hola4");
-          window.open("MONOPOLY/index.html", "JUEGO", "width=900, height=900");
+          window.open("Space/index.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square12") {
         //  alert("hola5");

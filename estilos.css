@@ -7,11 +7,11 @@ div {
 .game_board {
   width: 60em;
   height: 48em;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .row {
-  background-color: red;
+  /*background-color: red;*/
   width: 60em;
   height: 12em;
   display: table-row;
@@ -19,7 +19,7 @@ div {
 
 .cell {
   outline: .25em solid white;
-  background-color: purple;
+  /*background-color: purple;*/
   display: table-cell;
   width: 12em;
   height: 12em;
@@ -27,6 +27,48 @@ div {
   padding: .5em;
 }
 
+#square1{
+  background-color:#D8A6F1;
+
+}
+#square2{
+  background-color:#A6F1C0;
+
+}
+#square3{
+  background-color:#A6F1C0;
+
+}
+#square4{
+  background-color:#D8A6F1;
+
+}
+#square5{
+  background-color:#99C2EC ;
+
+}
+#square6{
+  background-color:#99C2EC ;
+
+}
+#square7{
+  background-color: #D8A6F1;
+}
+#square8{
+  background-color: #EC99BA;
+}
+#square9{
+  background-color: #EC99BA;
+}
+#square10{
+  background-color: #D8A6F1;
+}
+#square11{
+  background-color: #ECDE99;
+}
+#square12{
+  background-color: #ECDE99;
+}
 .square-name {
   font-weight: bold;
 }
