@@ -232,7 +232,7 @@ var Game = (function() {
         }
         if (currentSquareId == "square12") {
         //  alert("hola5");
-          window.open("PiPaOTi/index.html", "JUEGO", "width=900, height=900");
+          window.open("Dato/index.html", "JUEGO", "width=900, height=900");
         }
 
         updateByID(
