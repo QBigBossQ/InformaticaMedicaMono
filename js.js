@@ -196,7 +196,7 @@ var Game = (function() {
         }
         if (currentSquareId == "square3") {
           //alert("hola2");
-          window.open("Suicidio2/index.html", "JUEGO", "width=900, height=900");
+          window.open("Suicidio/index2.html", "JUEGO", "width=900, height=900");
         }
         if (currentSquareId == "square4") {
           //alert("hola3");
